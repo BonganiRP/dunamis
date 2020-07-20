@@ -1,0 +1,384 @@
+/*******General CSS********/
+
+body {
+    font-family: 'Open Sans Condensed', sans-serif !important;
+    color: #444444;
+    font-weight: bolder;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans Condensed', sans-serif !important;
+    font-size: 2em;
+  }
+
+/* Hero*/
+.introduction {
+    background-color: black;
+    height: 30px;
+}
+
+.list_details {
+    color: #9b9b9b;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.social-links i {
+    color: #9b9b9b;
+    margin-left: 8px;
+  }
+
+/*Navigation for the site */
+.nav-link {
+    color: black !important;
+    font-weight: bolder;
+}
+
+.navbar {
+    background-color: white;
+    height: 2.7em;
+}
+
+.company_logo {
+    height: 2em;
+    width: 2em;
+}
+
+ /* Banner for the site */
+
+.my_ban {
+    width: 100%;
+    height: 70vh;
+    background:linear-gradient(rgba(8, 8, 8, 0.8), 	rgba(26, 27, 27, 0.8)), url("images/cov.jpg") no-repeat  center center;
+    background-size: cover;
+    overflow: hidden;
+    position: absolute;
+}
+
+.my_ban1 {
+    width: 100%;
+    height:  70vh;
+    background:linear-gradient(rgba(8, 8, 8, 0.8), 	rgba(26, 27, 27, 0.8)), url("images/dev.jpg") no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+    position: absolute; 
+}
+
+.my_ban2 {
+    width: 100%;
+    height: 70vh;
+    background:linear-gradient(rgba(8, 8, 8, 0.8), 	rgba(26, 27, 27, 0.8)), url("images/learn.jpg") no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+    position: absolute; 
+}
+
+.banner {
+    margin-top: 10em;
+}
+
+.banner h1  {
+    color: white;
+}
+
+.banner h3  {
+    color: white;
+}
+/*******About us*******/
+.intro_vid {
+    height: 1500px;
+    width: 15em;
+}
+
+.about {
+    margin-top: 7em;
+}
+
+.about_img1 {
+    width: 250px;
+    height: 250px;
+    border-radius: 3%;
+    margin-top: 3em;
+}
+
+.about1 {
+    margin-top: 5em;
+}
+
+.about1 h4 {
+    color: darkblue;
+    font-weight: bold;
+}
+
+/****Main tag**********/
+main {
+    background-color: #f5f5f0;
+}
+
+.title h2 {
+    font-weight: bold;
+    position: relative;
+    top: 2em;
+}
+
+.line {
+    position: relative;
+    top: 4em;
+    width: 45em;
+}
+
+/****Mobile for Hero*****/
+
+@media (min-width: 1024px) {
+    .work {
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (max-width: 786px) {
+    .introduction {
+        display: none;
+    }
+/* Mobile navigation it needs to be on top of the image */
+    .navbar-collapse {
+        background-color: red;
+    }
+
+    .line {
+        width: 15em !important;
+    }
+
+    .card-text {
+        text-align: center;
+    }
+
+    .line_service {
+        width: 13em !important;
+    }
+
+    .about_img1 {
+        display: none;
+    }
+
+    .who_we_are2 {
+        position: relative;
+        bottom: 10em;
+    }
+
+    .who_we_are3 {
+        position: relative;
+        bottom: 20em;
+    }
+
+    main {
+        height: 65em;
+    }
+
+    .slider1 {
+        margin-left: -20em;
+        position: relative;
+        left: 15em;
+    }
+
+    .image_latest {
+        width: 25em;
+        height: 15em;
+    }
+
+    .work {
+        margin-left: 8em;
+    }
+
+    .banner_main {
+        margin-top: 1.5em;
+    }
+}
+
+/******Contact*******/
+.contact {
+    width: 100%;
+    height: 60vh;
+    background:linear-gradient(rgb(136,136,136,0.8), rgb(92, 214, 214,0.8)), url("images/res.jpg") no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+    position: relative; 
+}
+
+.get_in_touch {
+    color: white;
+    font-size: 30px;
+}
+
+.info_contact {
+    margin-top: 8em;
+}
+
+.line1 {
+    width: 25em;
+}
+
+.dunamis_form {
+    margin: 6em 0 4em 0;
+}
+
+.duna_form_btn {
+    width: 15em;
+}
+
+label {
+    font-weight: bolder;
+}
+
+/*****Portfolio********/
+.image_eom {
+    width: 20em;
+    height: 10em;
+}
+
+.line_service,
+.line_pro,
+.line {
+    width: 35em;
+}
+
+.text-uppercase, .foot_text, .footer-copyright {
+    color: white;
+}
+
+.links a {
+    color: white;
+}
+
+.links a:hover {
+    color: grey;
+    text-decoration: none;
+}
+
+.btn_prof {
+    margin-left: 10em;
+}
+
+/* serives */
+
+.services {
+    margin: 8em 0 7em 0;
+}
+
+.card-text {
+    padding: 10px;
+}
+
+/* Icon style */
+.my_icon {
+    color:  #002b80;
+}
+
+.my_icon1 {
+    color: #cccc00;
+}
+
+.my_icon2 {
+    color: #6600cc;
+}
+
+/* LATEST WORK */
+.image_latest {
+    width: 25em;
+    height: 15em;
+}
+
+.slider1 {
+    margin-right: 27em;
+}
+
+.latest_work {
+    margin-bottom: 7em;
+}
+
+.story_content {
+    margin-left: 15em;
+}
+
+/* Pricing for Dunamis Tech */
+
+.pricing {
+    margin-bottom: 3em;
+}
+
+/*  LEARN TO CODE  */
+
+.coding1 {
+    width: 100%;
+    height: 70vh;
+    background:linear-gradient(rgba(8, 8, 8, 0.8), 	rgba(26, 27, 27, 0.8)), url("images/learn.jpg") no-repeat  center center;
+    background-size: cover;
+    overflow: hidden;
+    position: relative; 
+}
+
+.coding2 {
+    width: 100%;
+    height:  70vh;
+    background:linear-gradient(rgba(8, 8, 8, 0.8), 	rgba(26, 27, 27, 0.8)), url("images/create.jpg") no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+    position: relative; 
+}
+
+.coding3 {
+    width: 100%;
+    height: 70vh;
+    background:linear-gradient(rgba(8, 8, 8, 0.8), 	rgba(26, 27, 27, 0.8)), url("images/heroku.jpeg") no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+    position: relative; 
+}
+
+.start_coding {
+    color: red;
+}
+
+.element {
+    color: rgb(83, 22, 139);
+    font-weight: bold;
+    margin-left: 0.3em;
+}
+
+/* Coding code for the languages */
+.color1 {
+    background-color: lightgrey;
+    height: 8em;
+    border: 1px solid grey;
+    margin-right: 5px;
+}
+
+.color2 {
+    background-color: lightblue;
+    border: 1px solid grey;
+}
+
+.color3 {
+    background-color: lightsalmon;
+    border: 1px solid grey;
+    margin-right: 5px;
+}
+
+.color4 {
+    background-color: lightslategray;
+    height: 7em;
+    border: 1px solid grey;
+    margin-right: 5px;
+}
+
+.color5 {
+    background-color: rgb(220, 233, 102);
+    border: 1px solid grey;
+}
+
+.coding_languange {
+    font-weight: bold;
+}
+
+.learn_lang {
+    margin: 0 55px 25px 0;
+}
