@@ -13,7 +13,7 @@ body {
 
 /* Hero*/
 .introduction {
-    background-color: black;
+    background-color: rgb(22, 22, 51);
     height: 30px;
 }
 
@@ -106,13 +106,13 @@ body {
 }
 
 .about1 h4 {
-    color: darkblue;
+    color: rgb(22, 22, 51);
     font-weight: bold;
 }
 
 /****Main tag**********/
 main {
-    background-color: #f5f5f0;
+    background-color: #f0faffcb;
 }
 
 .title h2 {
@@ -139,12 +139,20 @@ main {
     .introduction {
         display: none;
     }
+
 /* Mobile navigation it needs to be on top of the image */
     .navbar-collapse {
-        background-color: red;
+        background-color: rgb(233, 227, 227);
+        z-index: 9999;
+        border-radius: 10px;
     }
 
-    .line {
+    .collapse .dropdown-menu {
+        background-color: whitesmoke;
+        margin-left: 2em;
+    }
+
+    .line, .line1 {
         width: 15em !important;
     }
 
@@ -171,7 +179,7 @@ main {
     }
 
     main {
-        height: 65em;
+        height: 70em;
     }
 
     .slider1 {
@@ -190,6 +198,14 @@ main {
     }
 
     .banner_main {
+        margin-top: 1.5em;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        margin-left: 2em;
+    }
+
+    #hero {
         margin-top: 1.5em;
     }
 }
@@ -270,15 +286,15 @@ label {
 
 /* Icon style */
 .my_icon {
-    color:  #002b80;
+    color:  #0d2c69;
 }
 
 .my_icon1 {
-    color: #cccc00;
+    color: lightskyblue;
 }
 
 .my_icon2 {
-    color: #6600cc;
+    color: black;
 }
 
 /* LATEST WORK */
