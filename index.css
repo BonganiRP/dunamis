@@ -210,6 +210,92 @@ main {
     }
 }
 
+@media (max-width: 982px) {
+ 
+/* Mobile navigation it needs to be on top of the image */
+    .navbar-collapse {
+        z-index: 9999;
+        background-color: rgb(233, 227, 227);
+        border-radius: 10px;
+    }
+
+    .banner_main {
+        margin-top: 1em;
+    }
+
+    .collapse .dropdown-menu {
+        background-color: whitesmoke;
+        margin-left: 2em;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        margin-left: 2em;
+    }
+
+    #hero {
+        margin-top: 1.5em;
+    }
+
+    .slider1 {
+        position: relative;
+        left: 15em;
+    }
+
+    /* .collapse .dropdown-menu {
+        background-color: whitesmoke;
+        margin-left: 2em;
+    }
+
+    .line, .line1 {
+        width: 15em !important;
+    }
+
+    .card-text {
+        text-align: center;
+    }
+
+    .line_service {
+        width: 13em !important;
+    }
+
+    .about_img1 {
+        display: none;
+    }
+
+    .who_we_are2 {
+        position: relative;
+        bottom: 10em;
+    }
+
+    .who_we_are3 {
+        position: relative;
+        bottom: 20em;
+    }
+
+    main {
+        height: 70em;
+    }
+
+
+    .image_latest {
+        width: 25em;
+        height: 15em;
+    }
+
+    .work {
+        margin-left: 8em;
+    }
+
+    
+
+    .navbar-nav .nav-item .nav-link {
+        margin-left: 2em;
+    }
+
+    #hero {
+        margin-top: 1.5em;
+    } */
+}
 
 
 /******Contact*******/
