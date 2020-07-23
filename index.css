@@ -17,6 +17,11 @@ body {
     height: 30px;
 }
 
+.touch {
+    position: relative;
+    bottom: 0.4em;
+}
+
 .list_details {
     color: #9b9b9b;
     font-size: 16px;
@@ -42,6 +47,11 @@ body {
 .company_logo {
     height: 2em;
     width: 2em;
+}
+/* Our top bar  */
+#topbar  {
+    background-color: rgb(22, 22, 51) !important;
+    height: 30px;
 }
 
  /* Banner for the site */
@@ -240,61 +250,6 @@ main {
         position: relative;
         left: 15em;
     }
-
-    /* .collapse .dropdown-menu {
-        background-color: whitesmoke;
-        margin-left: 2em;
-    }
-
-    .line, .line1 {
-        width: 15em !important;
-    }
-
-    .card-text {
-        text-align: center;
-    }
-
-    .line_service {
-        width: 13em !important;
-    }
-
-    .about_img1 {
-        display: none;
-    }
-
-    .who_we_are2 {
-        position: relative;
-        bottom: 10em;
-    }
-
-    .who_we_are3 {
-        position: relative;
-        bottom: 20em;
-    }
-
-    main {
-        height: 70em;
-    }
-
-
-    .image_latest {
-        width: 25em;
-        height: 15em;
-    }
-
-    .work {
-        margin-left: 8em;
-    }
-
-    
-
-    .navbar-nav .nav-item .nav-link {
-        margin-left: 2em;
-    }
-
-    #hero {
-        margin-top: 1.5em;
-    } */
 }
 
 
