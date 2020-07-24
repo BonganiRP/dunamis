@@ -1,13 +1,13 @@
 /*******General CSS********/
 
 body {
-    font-family: 'Open Sans Condensed', sans-serif !important;
+     font-family: 'Dosis', sans-serif !important;
     color: #444444;
     font-weight: bolder;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Open Sans Condensed', sans-serif !important;
+    font-family: 'Dosis', sans-serif  !important;
     font-size: 2em;
   }
 
@@ -220,7 +220,7 @@ main {
     }
 }
 
-@media (max-width: 982px) {
+@media (max-width: 988px) {
  
 /* Mobile navigation it needs to be on top of the image */
     .navbar-collapse {
