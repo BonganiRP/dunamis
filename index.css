@@ -209,8 +209,8 @@ main {
     }
 
     .image_latest {
-        width: 25em;
-        height: 15em;
+        width: 100%;
+        height: auto;
     }
 
     .work {
@@ -227,6 +227,11 @@ main {
 
     #hero {
         margin-top: 1.5em;
+    }
+
+    .image_latest {
+        width: 100%;
+        height: auto;
     }
 }
 
@@ -246,6 +251,11 @@ main {
     .banner {
         position: relative;
         bottom: 2em;
+    }
+
+    .image_latest {
+        width: 100%;
+        height: auto;
     }
 
     .collapse .dropdown-menu {
@@ -440,6 +450,7 @@ label {
     text-align: center;
     margin-top: 3em;
 }
+
 /* Coding code for the languages */
 .color1 {
     background-color: lightgrey;
