@@ -248,15 +248,14 @@ main {
         margin-top: 1em;
     }
 
-    .banner {
-        position: relative;
-        bottom: 9em;
-    }
-
     .image_latest {
         width: 100%;
         height: auto;
     }
+
+    .banner {
+        margin-top: 10em;
+    }    
 
     .collapse .dropdown-menu {
         background-color: whitesmoke;
