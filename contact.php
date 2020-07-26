@@ -14,7 +14,7 @@
             $txt = "You Have receiveced an e-mail with the following details:\n\n\nEmail from:". "  ".$firstname. ".\n\nEmail address:"."  ".$mail_From. ".\n\nTelphone number:"."  ".$clientPhone. ".\n\nSubject message:"."  ".$email_subject .   ".\n\nService Required:"."  ".$services_needed. ".\n\n\n"."\n".$message;
             
             mail($to,$headers,$txt);
-            header("Location: home.html?mailsend");
+            header("Location: home.html?mailsent");
             
             $dbServername="localhost:3306";
             $dbUsername="dunarubq_eomuser";
