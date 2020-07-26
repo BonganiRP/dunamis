@@ -253,10 +253,6 @@ main {
         height: auto;
     }
 
-    .banner {
-        margin-top: 14em;
-    }    
-
     .collapse .dropdown-menu {
         background-color: whitesmoke;
         margin-left: 2em;
